@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/nomalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>TIENDA CAMISAS</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="./img/logo.png" alt="Logo principal" />
+      </a>
+    </header>
+    <nav class="navegacion">
+      <a class="navegacion__enlace" href="index.html">Tienda</a>
+      <a
+        class="navegacion__enlace navegacion__enlace--activo"
+        href="nosotros.html"
+        >Nosotros</a
+      >
+    </nav>
+    <main class="contenedor">
+        <h1>TITULO CAMISA</h1>
+        <div class="contenidoCamisa">
+            <img src="./img/2.jpg" alt="imagen camisa">
+            <div >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, libero mollitia doloremque vel aut, repudiandae assumenda consectetur quae illo eligendi quidem fugit expedita ipsam, animi iusto laudantium asperiores ab ducimus?</p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>Seleccionar Talla</option>
+                        <option >Pequeña</option>
+                        <option >Mediana</option>
+                        <option >Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__texto">Tienda -- Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
