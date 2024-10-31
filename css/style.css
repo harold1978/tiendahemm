@@ -173,6 +173,10 @@ h3 {
     padding: 1rem;
    
 }
+.formulario__campo option{
+    background-color: var(--primarioOscuro);
+    border: none;
+}
 .formulario__submit{
     background-color: var(--secundario);
     border: none;
